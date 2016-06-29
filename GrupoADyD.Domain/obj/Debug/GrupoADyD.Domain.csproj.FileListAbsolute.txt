@@ -1,0 +1,14 @@
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\obj\Debug\GrupoADyD.Domain.csprojResolveAssemblyReference.cache
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\GrupoADyD.Domain.dll.config
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\GrupoADyD.Domain.dll
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\GrupoADyD.Domain.pdb
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\EntityFramework.dll
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\EntityFramework.xml
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\obj\Debug\GrupoADyD.Domain.dll
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\obj\Debug\GrupoADyD.Domain.pdb
