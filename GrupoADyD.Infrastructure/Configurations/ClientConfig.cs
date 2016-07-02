@@ -35,7 +35,7 @@ namespace GrupoADyD.Infrastructure.Configurations
             Property(c => c.Discount)
                 .HasPrecision(18, 2);
 
-            Property(c => c.ToCost);
+            Property(c => c.OnCredit);
 
             Property(c => c.RowVersion)
                 .HasColumnType("timestamp")

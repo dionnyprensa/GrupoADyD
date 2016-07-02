@@ -59,14 +59,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Access.cs" />
+    <Compile Include="Entities\AccountsReceivable.cs" />
     <Compile Include="Entities\Cart.cs" />
     <Compile Include="Entities\Client.cs" />
+    <Compile Include="Entities\CustomerBalance.cs" />
+    <Compile Include="Entities\DetailAccountsReceivable.cs" />
     <Compile Include="Entities\DetailSale.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\Sale.cs" />
     <Compile Include="Entities\Stock.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Enums\PaymentMethod.cs" />
+    <Compile Include="Enums\TypePurchase.cs" />
     <Compile Include="Interfaces\IAuditable.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

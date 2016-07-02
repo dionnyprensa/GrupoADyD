@@ -91,3 +91,8 @@ E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\Newtonso
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\Microsoft.Practices.Unity.Mvc.dll
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\Microsoft.Practices.Unity.Mvc.xml
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\WebActivator.dll
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\Antlr3.Runtime.dll
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\System.Web.Optimization.dll
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\WebGrease.dll
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\Antlr3.Runtime.pdb
+E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\System.Web.Optimization.xml
