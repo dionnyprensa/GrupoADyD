@@ -4,16 +4,15 @@ using GrupoADyD.Application.Interfaces;
 using GrupoADyD.Application.Validators;
 using System.Collections.Generic;
 using FluentValidation.Results;
-using System;
 
 namespace GrupoADyD.Application.Concrete
 {
-    public class AccessAppService : IAccessAppService
+    public class AccessService : IAccessService
     {
         private readonly AccessValidator _validator;
         private readonly IRepository<Access> _accessRepository;
 
-        public AccessAppService(IRepository<Access> accessRepository)
+        public AccessService(IRepository<Access> accessRepository)
         {
             _accessRepository = accessRepository;
             _validator = new AccessValidator();

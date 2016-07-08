@@ -5,7 +5,7 @@ namespace GrupoADyD.Infrastructure.UnitOfWork
     public class UnitOfWork
     {
         private AccessRepository _accessRepository;
-        private ClientRepository _clientRepository;
+        private CustomerRepository _customerRepository;
         private ProductRepository _productRepository;
         private SaleRepository _saleRepository;
 
@@ -28,15 +28,15 @@ namespace GrupoADyD.Infrastructure.UnitOfWork
             }
         }
 
-        public ClientRepository ClientRepository
+        public CustomerRepository CustomerRepository
         {
             get
             {
-                if (_clientRepository == null)
+                if (_customerRepository == null)
                 {
-                    _clientRepository = new ClientRepository(_db);
+                    _customerRepository = new CustomerRepository(_db);
                 }
-                return _clientRepository;
+                return _customerRepository;
             }
         }
 

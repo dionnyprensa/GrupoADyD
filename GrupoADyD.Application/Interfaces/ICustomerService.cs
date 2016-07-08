@@ -3,7 +3,7 @@ using GrupoADyD.Domain.Interfaces;
 
 namespace GrupoADyD.Application.Interfaces
 {
-    public interface IClientAppService : IRepository<Client>, IAppService<Client>
+    public interface ICustomerService : IRepository<Customer>, IAppService<Customer>
     {
     }
 }

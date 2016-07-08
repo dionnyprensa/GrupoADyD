@@ -2,9 +2,9 @@
 
 namespace GrupoADyD.Application.Validators
 {
-    public class ClientValidator : AbstractValidator<Domain.Entities.Client>
+    public class CustomerValidator : AbstractValidator<Domain.Entities.Customer>
     {
-        public ClientValidator()
+        public CustomerValidator()
         {
             RuleFor(a => a.FirstName)
                 .Matches(@"/[a-zA-Z ]+\w/g").WithMessage("Solo letras.")
@@ -27,8 +27,7 @@ namespace GrupoADyD.Application.Validators
                 .NotEmpty().WithMessage("Requerida.")
                 .Length(16, 16).WithMessage("Debe tener entre 16 y 64 caracteres.");
 
-            RuleFor(a => a.Discount)
-                .GreaterThanOrEqualTo(0).WithMessage("Debe ser mayor o igual 0");
+            RuleFor(a => a.Discount).GreaterThanOrEqualTo(0).WithMessage("Debe ser mayor o igual 0");
         }
     }
 }

@@ -11,6 +11,7 @@ namespace GrupoADyD.Domain.Entities
 
         public virtual ICollection<Role> Roles { get; set; }
 
+        public Enums.Status StatusEntity { get; set; }
         public string WhoAccess { get; set; }
         public byte[] RowVersion { get; set; }
         public DateTime CreationDate { get; set; }

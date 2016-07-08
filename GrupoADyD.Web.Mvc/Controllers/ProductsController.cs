@@ -5,9 +5,9 @@ namespace GrupoADyD.Web.Mvc.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly IProductAppService _productAppService;
+        private readonly IProductService _productAppService;
 
-        public ProductsController(IProductAppService productAppService)
+        public ProductsController(IProductService productAppService)
         {
             _productAppService = productAppService;
         }

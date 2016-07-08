@@ -61,8 +61,8 @@
     <Compile Include="Entities\Access.cs" />
     <Compile Include="Entities\AccountsReceivable.cs" />
     <Compile Include="Entities\Cart.cs" />
-    <Compile Include="Entities\Client.cs" />
-    <Compile Include="Entities\CustomerBalance.cs" />
+    <Compile Include="Entities\CreditNote.cs" />
+    <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\DetailAccountsReceivable.cs" />
     <Compile Include="Entities\DetailSale.cs" />
     <Compile Include="Entities\Product.cs" />
@@ -70,8 +70,10 @@
     <Compile Include="Entities\Sale.cs" />
     <Compile Include="Entities\Stock.cs" />
     <Compile Include="Entities\User.cs" />
-    <Compile Include="Enums\PaymentMethod.cs" />
-    <Compile Include="Enums\TypePurchase.cs" />
+    <Compile Include="Enums\CustomerType.cs" />
+    <Compile Include="Enums\MethodPayment.cs" />
+    <Compile Include="Enums\PurchaseType.cs" />
+    <Compile Include="Enums\Status.cs" />
     <Compile Include="Interfaces\IAuditable.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

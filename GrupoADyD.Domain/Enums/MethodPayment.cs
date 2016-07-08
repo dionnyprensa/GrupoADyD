@@ -1,6 +1,6 @@
 ﻿namespace GrupoADyD.Domain.Enums
 {
-    public enum PaymentMethod
+    public enum MethodPayment
     {
         Cash = 1,
         Transfer,

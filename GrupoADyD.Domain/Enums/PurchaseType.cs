@@ -1,6 +1,6 @@
 ﻿namespace GrupoADyD.Domain.Enums
 {
-    public enum TypePurchase
+    public enum PurchaseType
     {
         Credit = 1,
         Counted

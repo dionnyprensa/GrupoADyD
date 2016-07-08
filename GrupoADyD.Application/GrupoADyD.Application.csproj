@@ -45,18 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Concrete\AccessAppService.cs" />
-    <Compile Include="Concrete\ClientAppService.cs" />
-    <Compile Include="Concrete\ProductAppService.cs" />
-    <Compile Include="Concrete\SaleAppService.cs" />
-    <Compile Include="Interfaces\IAccessAppService.cs" />
-    <Compile Include="Interfaces\IAppService.cs" />
-    <Compile Include="Interfaces\IClientAppService.cs" />
-    <Compile Include="Interfaces\IProductAppService.cs" />
-    <Compile Include="Interfaces\ISaleAppService.cs" />
+    <Compile Include="Concrete\AccessService.cs" />
+    <Compile Include="Concrete\CustomerService.cs" />
+    <Compile Include="Concrete\ProductService.cs" />
+    <Compile Include="Concrete\SaleService.cs" />
+    <Compile Include="Interfaces\IAccessService.cs" />
+    <Compile Include="Interfaces\IService.cs" />
+    <Compile Include="Interfaces\ICustomerService.cs" />
+    <Compile Include="Interfaces\IProductService.cs" />
+    <Compile Include="Interfaces\ISaleService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validators\AccessValidator.cs" />
-    <Compile Include="Validators\ClientValidator.cs" />
+    <Compile Include="Validators\CustomerValidator.cs" />
     <Compile Include="Validators\ProductValidator.cs" />
     <Compile Include="Validators\RoleValidator.cs" />
     <Compile Include="Validators\SaleValidator.cs" />

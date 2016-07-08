@@ -40,10 +40,10 @@ namespace GrupoADyD.Web.Mvc.App_Start
             // TODO: Register your types here
             // container.RegisterType<IProductRepository, ProductRepository>();
 
-            container.RegisterType<IAccessAppService, AccessAppService>();
-            container.RegisterType<IClientAppService, ClientAppService>();
-            container.RegisterType<IProductAppService, ProductAppService>();
-            container.RegisterType<ISaleAppService, SaleAppService>();
+            container.RegisterType<IAccessService, AccessService>();
+            container.RegisterType<CustomerService, CustomerService>();
+            container.RegisterType<IProductService, ProductService>();
+            container.RegisterType<ISaleService, SaleService>();
         }
     }
 }

@@ -12,7 +12,7 @@ namespace GrupoADyD.Application.Validators
             RuleFor(s => s.ClientId)
                 .NotNull().NotEmpty().WithMessage("Requerido");
 
-            RuleFor(s => s.Client)
+            RuleFor(s => s.Customer)
                 .NotNull().NotEmpty().WithMessage("Requerido");
         }
     }

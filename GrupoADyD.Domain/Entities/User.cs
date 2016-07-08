@@ -12,9 +12,12 @@ namespace GrupoADyD.Domain.Entities
         public string UserId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Identification { get; set; }
 
         public virtual ICollection<Sale> Sales { get; set; }
+        public virtual ICollection<AccountsReceivable> AccountsReceivable { get; set; }
 
+        public Enums.Status StatusEntity { get; set; }
         public string WhoAccess { get; set; }
         public byte[] RowVersion { get; set; }
         public DateTime CreationDate { get; set; }

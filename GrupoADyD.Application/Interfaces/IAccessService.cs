@@ -3,7 +3,7 @@ using GrupoADyD.Domain.Interfaces;
 
 namespace GrupoADyD.Application.Interfaces
 {
-    public interface IAccessAppService : IRepository<Access>, IAppService<Access>
+    public interface IAccessService : IRepository<Access>, IAppService<Access>
     {
     }
 }

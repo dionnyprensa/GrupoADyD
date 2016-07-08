@@ -8,12 +8,12 @@ using GrupoADyD.Infrastructure.Repositories;
 
 namespace GrupoADyD.Application.Concrete
 {
-    public class ProductAppService : IProductAppService
+    public class ProductService : IProductService
     {
         private readonly ProductValidator _validator;
         private readonly IRepository<Product> _productRepository;
 
-        public ProductAppService(ProductRepository productRepository)
+        public ProductService(ProductRepository productRepository)
         {
             _productRepository = productRepository;
             _validator = new ProductValidator();

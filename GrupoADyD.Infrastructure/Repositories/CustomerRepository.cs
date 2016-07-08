@@ -5,16 +5,16 @@ using System.Linq;
 
 namespace GrupoADyD.Infrastructure.Repositories
 {
-    public class ClientRepository : IRepository<Client>
+    public class CustomerRepository : IRepository<Customer>
     {
         private ApplicationDbContext _context;
 
-        public ClientRepository(ApplicationDbContext context)
+        public CustomerRepository(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public IEnumerable<Client> GetAll
+        public IEnumerable<Customer> GetAll
         {
             get
             {
@@ -22,28 +22,28 @@ namespace GrupoADyD.Infrastructure.Repositories
             }
         }
 
-        public Client Get(Client entity)
+        public Customer Get(Customer entity)
         {
             return _context.Clients.Find(entity);
         }
 
-        public Client GetById(int Id)
+        public Customer GetById(int Id)
         {
             return (from a in GetAll where a.Id == Id select a).FirstOrDefault();
         }
 
-        public void Create(Client entity)
+        public void Create(Customer entity)
         {
             _context.Clients.Add(entity);
             _context.SaveChanges();
         }
 
-        public void Update(Client entity)
+        public void Update(Customer entity)
         {
             _context.Entry(entity).State = System.Data.Entity.EntityState.Modified;
         }
 
-        public void Delete(Client entity)
+        public void Delete(Customer entity)
         {
             _context.Clients.Remove(entity);
         }

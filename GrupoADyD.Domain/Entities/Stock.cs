@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace GrupoADyD.Domain.Entities
 {
@@ -10,6 +9,7 @@ namespace GrupoADyD.Domain.Entities
         public Product Product { get; set; }
         public DateTime Date { get; set; }
 
+        public Enums.Status StatusEntity { get; set; }
         public string WhoAccess { get; set; }
         public byte[] RowVersion { get; set; }
         public DateTime CreationDate { get; set; }

@@ -10,6 +10,7 @@ namespace GrupoADyD.Domain.Entities
 
         public virtual ICollection<Access> Access { get; set; }
 
+        public Enums.Status StatusEntity { get; set; }
         public string WhoAccess { get; set; }
         public byte[] RowVersion { get; set; }
         public DateTime CreationDate { get; set; }

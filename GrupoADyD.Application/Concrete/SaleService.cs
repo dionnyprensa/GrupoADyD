@@ -8,12 +8,12 @@ using System;
 
 namespace GrupoADyD.Application.Concrete
 {
-    public class SaleAppService : ISaleAppService
+    public class SaleService : ISaleService
     {
         private readonly SaleValidator _validator;
         private readonly IRepository<Sale> _saleRepository;
 
-        public SaleAppService(IRepository<Sale> saleRepository)
+        public SaleService(IRepository<Sale> saleRepository)
         {
             _saleRepository = saleRepository;
             _validator = new SaleValidator();

@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace GrupoADyD.Infrastructure.Configurations
 {
-    public class ClientConfig : EntityTypeConfiguration<Domain.Entities.Client>
+    public class ClientConfig : EntityTypeConfiguration<Domain.Entities.Customer>
     {
         public ClientConfig()
         {

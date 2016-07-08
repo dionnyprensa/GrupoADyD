@@ -18,7 +18,7 @@ namespace GrupoADyD.Infrastructure
     public class ApplicationDbContext : IdentityDbContext<User>
     {
         public DbSet<Access> Access { get; set; }
-        public DbSet<Client> Clients { get; set; }
+        public DbSet<Customer> Clients { get; set; }
         public DbSet<DetailSale> DetailSales { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Sale> Sales { get; set; }

@@ -1,23 +1,22 @@
 ﻿using GrupoADyD.Domain.Interfaces;
 using GrupoADyD.Domain.Entities;
-using GrupoADyD.Application.Interfaces;
 using GrupoADyD.Application.Validators;
 using System.Collections.Generic;
 using FluentValidation.Results;
 
 namespace GrupoADyD.Application.Concrete
 {
-    public class ClientAppService : IClientAppService
+    public class CustomerService : Interfaces.ICustomerService
     {
-        private readonly ClientValidator _validator;
-        private readonly IRepository<Client> _clientRepository;
-        public ClientAppService(IRepository<Client> clientRepository)
+        private readonly CustomerValidator _validator;
+        private readonly IRepository<Customer> _clientRepository;
+        public CustomerService(IRepository<Customer> clientRepository)
         {
             _clientRepository = clientRepository;
-            _validator = new ClientValidator();
+            _validator = new CustomerValidator();
         }
 
-        public IEnumerable<Client> GetAll
+        public IEnumerable<Customer> GetAll
         {
             get
             {
@@ -25,27 +24,27 @@ namespace GrupoADyD.Application.Concrete
             }
         }
 
-        public Client Get(Client entity)
+        public Customer Get(Customer entity)
         {
             return _clientRepository.Get(entity);
         }
 
-        public Client GetById(int Id)
+        public Customer GetById(int Id)
         {
             return _clientRepository.GetById(Id);
         }
 
-        public void Create(Client entity)
+        public void Create(Customer entity)
         {
             _clientRepository.Create(entity);
         }
 
-        public void Update(Client entity)
+        public void Update(Customer entity)
         {
             _clientRepository.Update(entity);
         }
 
-        public void Delete(Client entity)
+        public void Delete(Customer entity)
         {
             _clientRepository.Delete(entity);
         }
@@ -55,17 +54,17 @@ namespace GrupoADyD.Application.Concrete
             _clientRepository.Commit();
         }
 
-        public bool Validate(Client entity)
+        public bool Validate(Customer entity)
         {
             return false;
         }
 
-        public bool isValid(Client entity)
+        public bool isValid(Customer entity)
         {
             return _validator.Validate(entity).IsValid;
         }
 
-        public ICollection<ValidationFailure> Errors(Client entity)
+        public ICollection<ValidationFailure> Errors(Customer entity)
         {
             return _validator.Validate(entity).Errors;
         }

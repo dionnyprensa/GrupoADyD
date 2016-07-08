@@ -89,7 +89,9 @@
     <Compile Include="AppRoleManager.cs" />
     <Compile Include="AppUserManager.cs" />
     <Compile Include="Configurations\AccessConfig.cs" />
+    <Compile Include="Configurations\AccountsReceivableConfig.cs" />
     <Compile Include="Configurations\ClientConfig.cs" />
+    <Compile Include="Configurations\CreditNoteConfig.cs" />
     <Compile Include="Configurations\DetailSaleConfig.cs" />
     <Compile Include="Configurations\Identity.cs" />
     <Compile Include="Configurations\ProductConfig.cs" />
@@ -99,7 +101,7 @@
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AccessRepository.cs" />
-    <Compile Include="Repositories\ClientRepository.cs" />
+    <Compile Include="Repositories\CustomerRepository.cs" />
     <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\RoleRepository.cs" />
     <Compile Include="Repositories\SaleRepository.cs" />
