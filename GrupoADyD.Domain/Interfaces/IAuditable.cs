@@ -9,6 +9,5 @@ namespace GrupoADyD.Domain.Interfaces
         byte[] RowVersion { get; set; }
         DateTime CreationDate { get; set; }
         DateTime ModificationDate { get; set; }
-        Status StatusEntity { get; set; }
     }
 }

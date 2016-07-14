@@ -9,7 +9,7 @@ namespace GrupoADyD.Infrastructure.Configurations
         {
             ToTable("AccountsReceivable");
 
-            HasKey(a => a.Id);
+            HasKey(ar => ar.Id);
 
             Property(ar => ar.Id)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)

@@ -30,7 +30,7 @@ namespace GrupoADyD.Infrastructure.Configurations
 
             Property(c => c.Description)
                 .HasColumnType("nvarchar")
-                .HasMaxLength(32);
+                .HasMaxLength(64);
 
             Property(c => c.Cost)
                 .HasPrecision(18, 2);

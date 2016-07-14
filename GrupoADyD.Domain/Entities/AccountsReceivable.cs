@@ -17,12 +17,12 @@ namespace GrupoADyD.Domain.Entities
         public decimal Amount {
             get
             {
-                decimal amount = 0;
+                decimal _amount = 0;
                 foreach (var item in DetailsAccountsReceivable)
                 {
-                    amount = item.Due;
+                    _amount = item.Due;
                 }
-                return amount;
+                return _amount;
             }
             private set
             {

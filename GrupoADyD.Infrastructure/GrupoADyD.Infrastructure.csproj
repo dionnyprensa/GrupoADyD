@@ -90,8 +90,9 @@
     <Compile Include="AppUserManager.cs" />
     <Compile Include="Configurations\AccessConfig.cs" />
     <Compile Include="Configurations\AccountsReceivableConfig.cs" />
-    <Compile Include="Configurations\ClientConfig.cs" />
+    <Compile Include="Configurations\CustomerConfig.cs" />
     <Compile Include="Configurations\CreditNoteConfig.cs" />
+    <Compile Include="Configurations\DetailAccountReceivableConfig.cs" />
     <Compile Include="Configurations\DetailSaleConfig.cs" />
     <Compile Include="Configurations\Identity.cs" />
     <Compile Include="Configurations\ProductConfig.cs" />

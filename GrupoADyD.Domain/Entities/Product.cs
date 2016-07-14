@@ -14,10 +14,11 @@ namespace GrupoADyD.Domain.Entities
         public decimal Price { get; set; }
         public int Sold { get; set; }
         public bool InStock { get; set; }
+        public int Stock { get; set; }
+        public Enums.Status StatusEntity { get; set; }
 
         public virtual ICollection<DetailSale> DetailSales { get; set; }
 
-        public Enums.Status StatusEntity { get; set; }
         public string WhoAccess { get; set; }
         public byte[] RowVersion { get; set; }
         public DateTime CreationDate { get; set; }
