@@ -15,14 +15,14 @@ namespace GrupoADyD.Infrastructure.Configurations
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .HasColumnName("Id");
 
-            Property(ar => ar.Amount)
-                .HasPrecision(18, 2)
-                .IsRequired();
-
             Property(ar => ar.CustomerId)
                 .IsRequired();
 
             Property(ar => ar.UserId)
+                .IsRequired();
+
+            Property(ar => ar.Amount)
+                .HasPrecision(18, 2)
                 .IsRequired();
 
             Property(a => a.RowVersion)

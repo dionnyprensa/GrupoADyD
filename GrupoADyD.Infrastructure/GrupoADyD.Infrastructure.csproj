@@ -90,12 +90,15 @@
     <Compile Include="AppUserManager.cs" />
     <Compile Include="Configurations\AccessConfig.cs" />
     <Compile Include="Configurations\AccountsReceivableConfig.cs" />
+    <Compile Include="Configurations\CategoryConfig.cs" />
     <Compile Include="Configurations\CustomerConfig.cs" />
     <Compile Include="Configurations\CreditNoteConfig.cs" />
     <Compile Include="Configurations\DetailAccountReceivableConfig.cs" />
     <Compile Include="Configurations\DetailSaleConfig.cs" />
     <Compile Include="Configurations\Identity.cs" />
     <Compile Include="Configurations\ProductConfig.cs" />
+    <Compile Include="Configurations\ProductMeasureConfig.cs" />
+    <Compile Include="Configurations\ProductRegistryConfig.cs" />
     <Compile Include="Configurations\RoleConfig.cs" />
     <Compile Include="Configurations\SaleConfig.cs" />
     <Compile Include="Configurations\UserConfig.cs" />

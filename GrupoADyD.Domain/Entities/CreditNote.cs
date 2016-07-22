@@ -2,7 +2,7 @@
 
 namespace GrupoADyD.Domain.Entities
 {
-    public class CreditNote
+    public class CreditNote: Interfaces.IAuditable
     {
         public int Id { get; set; }
 
@@ -19,10 +19,12 @@ namespace GrupoADyD.Domain.Entities
         public virtual Sale Sale { get; set; }
         public virtual User AuthorizingUser { get; set; }
         public virtual User CanceledUser { get; set; }
+        public Enums.Status StatusEntity { get; set; }
 
-        public string WhoAccess { get; set; }
+        public string CreatedBy { get; set; }
+        public string LastAccess { get; set; }
         public byte[] RowVersion { get; set; }
-        public DateTime CreationDate { get; set; }
-        public DateTime ModificationDate { get; set; }
+        public DateTime Created { get; set; }
+        public DateTime Modified { get; set; }
     }
 }

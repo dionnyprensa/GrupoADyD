@@ -61,6 +61,7 @@
     <Compile Include="Entities\Access.cs" />
     <Compile Include="Entities\AccountsReceivable.cs" />
     <Compile Include="Entities\Cart.cs" />
+    <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\CreditNote.cs" />
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\DetailAccountsReceivable.cs" />

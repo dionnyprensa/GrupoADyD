@@ -6,7 +6,7 @@ namespace GrupoADyD.Infrastructure.Configurations
     {
         public RoleConfig()
         {
-            //ToTable("AspNetRoles");
+            ToTable("Roles");
 
             HasKey(a => a.Id);
 
@@ -27,7 +27,7 @@ namespace GrupoADyD.Infrastructure.Configurations
                 .WithMany(a => a.Roles)
                 .Map(m =>
                 {
-                    m.ToTable("AspNetRolesAccess");
+                    m.ToTable("RolesAccess");
                     m.MapLeftKey("RoleId");
                     m.MapRightKey("AccessId");
                 });

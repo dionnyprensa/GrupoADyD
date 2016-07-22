@@ -9,18 +9,35 @@ namespace GrupoADyD.Infrastructure.Configurations
         {
             ToTable("Sales");
 
-            HasKey(a => a.Id);
+            HasKey(s => s.Id);
 
-            Property(a => a.Id)
+            Property(s => s.Id)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .HasColumnName("Id");
 
-            Property(d => d.Discount)
+            Property(s => s.Discount)
+                .HasPrecision(18, 2);
+
+            Property(s => s.SubTotal)
                 .HasPrecision(18, 2)
                 .IsRequired();
 
-            Property(a => a.Total)
+            Property(s => s.Total)
                 .HasPrecision(18, 2)
+                .IsRequired();
+
+            Property(s => s.Paid)
+                .HasPrecision(18, 2)
+                .IsRequired();
+
+            Property(s => s.Due)
+                .HasPrecision(18, 2)
+                .IsOptional();
+
+            Property(s => s.CustomerId)
+                .IsRequired();
+
+            Property(s => s.UserId)
                 .IsRequired();
 
             //HasRequired(s => s.Client)

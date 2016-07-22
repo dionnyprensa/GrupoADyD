@@ -1,13 +1,13 @@
-﻿using GrupoADyD.Domain.Enums;
-using System;
+﻿using System;
 
 namespace GrupoADyD.Domain.Interfaces
 {
     public interface IAuditable
     {
-        string WhoAccess { get; set; }
+        string CreatedBy { get; set; }
+        string LastAccess { get; set; }
         byte[] RowVersion { get; set; }
-        DateTime CreationDate { get; set; }
-        DateTime ModificationDate { get; set; }
+        DateTime Created { get; set; }
+        DateTime Modified { get; set; }
     }
 }

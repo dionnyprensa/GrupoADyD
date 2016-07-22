@@ -29,11 +29,12 @@ namespace GrupoADyD.Domain.Entities
                 Amount = value;
             }
         }
-
         public Enums.Status StatusEntity { get; set; }
-        public string WhoAccess { get; set; }
+
+        public string CreatedBy { get; set; }
+        public string LastAccess { get; set; }
         public byte[] RowVersion { get; set; }
-        public DateTime CreationDate { get; set; }
-        public DateTime ModificationDate { get; set; }
+        public DateTime Created { get; set; }
+        public DateTime Modified { get; set; }
     }
 }

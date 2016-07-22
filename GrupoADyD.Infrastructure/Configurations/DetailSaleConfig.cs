@@ -7,7 +7,7 @@ namespace GrupoADyD.Infrastructure.Configurations
     {
         public DetailSaleConfig()
         {
-            ToTable("DetailSales");
+            ToTable("DetailsSales");
 
             HasKey(d => d.Id);
 
@@ -15,13 +15,13 @@ namespace GrupoADyD.Infrastructure.Configurations
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .HasColumnName("Id");
 
+            Property(d => d.Count)
+                .IsRequired();
+
             Property(d => d.SaleId)
                 .IsRequired();
 
             Property(d => d.ProductId)
-                .IsRequired();
-
-            Property(d => d.Count)
                 .IsRequired();
 
             //HasRequired(d => d.Sale)

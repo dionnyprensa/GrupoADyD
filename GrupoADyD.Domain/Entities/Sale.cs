@@ -5,14 +5,22 @@ namespace GrupoADyD.Domain.Entities
 {
     public class Sale : Interfaces.IAuditable
     {
+        public Sale()
+        {
+            DetailedSales = new List<DetailSale>();
+            Discount = new decimal();
+            SubTotal = new decimal();
+        }
+
         public int Id { get; set; }
         public decimal Discount { get; set; }
-        public decimal Amount { get; set; }
+        public decimal SubTotal { get; set; }
         public decimal Total {
-            get { return (Amount - Discount); }
-            private set { }
+            get { return (SubTotal - Discount); }
+            private set { Total = value; }
         }
         public decimal Paid { get; set; }
+        public decimal? Due { get; set; }
 
         public bool HasAccountReceivable { get; set; }
 
@@ -28,18 +36,12 @@ namespace GrupoADyD.Domain.Entities
         public virtual User User { get; set; }
         public virtual ICollection<DetailSale> DetailedSales { get; set; }
         public virtual ICollection<AccountsReceivable> AccountsReceivable { get; set; }
-
         public Enums.Status StatusEntity { get; set; }
-        public string WhoAccess { get; set; }
-        public byte[] RowVersion { get; set; }
-        public DateTime CreationDate { get; set; }
-        public DateTime ModificationDate { get; set; }
 
-        public Sale()
-        {
-            DetailedSales = new List<DetailSale>();
-            Discount = new decimal();
-            Amount = new decimal();
-        }
+        public string CreatedBy { get; set; }
+        public string LastAccess { get; set; }
+        public byte[] RowVersion { get; set; }
+        public DateTime Created { get; set; }
+        public DateTime Modified { get; set; }
     }
 }
