@@ -9,36 +9,34 @@ namespace GrupoADyD.Infrastructure.Configurations
         {
             ToTable("CreditNotes");
 
-            HasKey(c => c.Id);
+            HasKey(cn => cn.Id);
 
-            Property(c => c.Id)
+            Property(cn => cn.Id)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .HasColumnName("Id");
 
-            Property(c => c.Amount)
+            Property(cn => cn.Amount)
                 .HasPrecision(18, 2)
                 .IsRequired();
 
-            Property(ar => ar.Reduction)
-                .HasPrecision(18, 2)
+            Property(cn => cn.Authorized)
                 .IsRequired();
 
-            Property(c => c.Authorized)
+            Property(cn => cn.Canceled)
                 .IsRequired();
 
-            Property(c => c.Canceled)
-                .IsRequired();
+            HasRequired(cn => cn.Sale)
+                 .WithRequiredPrincipal(s => s.CreditNote);
 
-            Property(c => c.SaleId)
-                .IsRequired();
+            HasRequired(cn => cn.ApprovedBy)
+                .WithMany(u => u.CreditNote)
+                .HasForeignKey(cnu => cnu.ApprovedById);
 
-            Property(c => c.AuthorizingUserId)
-                .IsRequired();
+            HasOptional(cn => cn.CanceledBy)
+                .WithMany(u => u.CreditNote)
+                .HasForeignKey(cn => cn.CanceledById);
 
-            Property(c => c.CanceledUserId)
-                .IsRequired();
-
-            Property(c => c.RowVersion)
+            Property(cn => cn.RowVersion)
                 .HasColumnType("timestamp")
                 .IsConcurrencyToken();
         }

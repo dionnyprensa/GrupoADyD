@@ -39,3 +39,6 @@ E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Application\bin\Debu
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Application\bin\Debug\zh-CN\FluentValidation.resources.dll
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Application\obj\Debug\GrupoADyD.Application.dll
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Application\obj\Debug\GrupoADyD.Application.pdb
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Application\obj\Debug\GrupoADyD.Application.csprojResolveAssemblyReference.cache
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Application\obj\Debug\GrupoADyD.Application.dll
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Application\obj\Debug\GrupoADyD.Application.pdb

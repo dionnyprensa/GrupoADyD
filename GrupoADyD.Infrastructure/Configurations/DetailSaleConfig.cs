@@ -15,7 +15,7 @@ namespace GrupoADyD.Infrastructure.Configurations
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .HasColumnName("Id");
 
-            Property(d => d.Count)
+            Property(d => d.Quantity)
                 .IsRequired();
 
             Property(d => d.SaleId)

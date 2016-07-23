@@ -15,15 +15,16 @@ namespace GrupoADyD.Infrastructure.Configurations
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
                 .HasColumnName("Id");
 
-            Property(ar => ar.CustomerId)
-                .IsRequired();
-
-            Property(ar => ar.UserId)
-                .IsRequired();
-
             Property(ar => ar.Amount)
                 .HasPrecision(18, 2)
                 .IsRequired();
+
+            HasRequired(ar => ar.Sale)
+                .WithRequiredPrincipal(s => s.AccountsReceivable);
+
+            HasMany(ar => ar.DetailsAccountsReceivable)
+                .WithRequired(dar => dar.AccountsReceivable)
+                .HasForeignKey(a => a.AccountsReceivableId);
 
             Property(a => a.RowVersion)
                 .HasColumnType("timestamp")

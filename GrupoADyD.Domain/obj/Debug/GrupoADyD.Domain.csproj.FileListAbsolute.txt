@@ -12,3 +12,17 @@ E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\Mic
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\obj\Debug\GrupoADyD.Domain.dll
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Domain\obj\Debug\GrupoADyD.Domain.pdb
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\GrupoADyD.Domain.dll.config
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\GrupoADyD.Domain.dll
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\GrupoADyD.Domain.pdb
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\EntityFramework.dll
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\EntityFramework.xml
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\obj\Debug\GrupoADyD.Domain.csprojResolveAssemblyReference.cache
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\obj\Debug\GrupoADyD.Domain.dll
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Domain\obj\Debug\GrupoADyD.Domain.pdb

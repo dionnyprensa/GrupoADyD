@@ -71,6 +71,7 @@
     <Compile Include="Entities\ProductMeasure.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\Sale.cs" />
+    <Compile Include="Entities\Stock.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Enums\CustomerType.cs" />
     <Compile Include="Enums\MethodPayment.cs" />

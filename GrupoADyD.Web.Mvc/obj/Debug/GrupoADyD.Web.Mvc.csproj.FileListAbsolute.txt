@@ -96,3 +96,6 @@ E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\System.W
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\WebGrease.dll
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\Antlr3.Runtime.pdb
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\bin\System.Web.Optimization.xml
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\obj\Debug\GrupoADyD.Web.Mvc.csprojResolveAssemblyReference.cache
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\obj\Debug\GrupoADyD.Web.Mvc.dll
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Web.Mvc\obj\Debug\GrupoADyD.Web.Mvc.pdb

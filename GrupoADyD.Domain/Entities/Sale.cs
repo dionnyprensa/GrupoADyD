@@ -10,6 +10,8 @@ namespace GrupoADyD.Domain.Entities
             DetailedSales = new List<DetailSale>();
             Discount = new decimal();
             SubTotal = new decimal();
+            Total = new decimal();
+            Paid = new decimal();
         }
 
         public int Id { get; set; }
@@ -23,19 +25,23 @@ namespace GrupoADyD.Domain.Entities
         public decimal? Due { get; set; }
 
         public bool HasAccountReceivable { get; set; }
+        public bool IsCanceled { get; set; }
+        public bool IsCreditNote { get; set; }
 
-        public bool Canceled { get; set; }
-        
         public Enums.PurchaseType TypePurchase { get; set; }
         public Enums.MethodPayment PaymentMethod { get; set; }
 
         public int CustomerId { get; set; }
-        public string UserId { get; set; }
+        public int UserId { get; set; }
+        public int CanceledById { get; set; }
+        public int CreditNoteId { get; set; }
 
         public virtual Customer Customer { get; set; }
         public virtual User User { get; set; }
+        public virtual User CanceledBy { get; set; }
+        public virtual CreditNote CreditNote { get; set; }
         public virtual ICollection<DetailSale> DetailedSales { get; set; }
-        public virtual ICollection<AccountsReceivable> AccountsReceivable { get; set; }
+        public virtual AccountsReceivable AccountsReceivable { get; set; }
         public Enums.Status StatusEntity { get; set; }
 
         public string CreatedBy { get; set; }

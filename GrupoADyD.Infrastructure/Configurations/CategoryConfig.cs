@@ -16,11 +16,12 @@ namespace GrupoADyD.Infrastructure.Configurations
                 .HasColumnName("Id");
 
             Property(a => a.Name)
+                .HasColumnType("varchar")
                 .HasMaxLength(16)
-                .IsRequired()
-                .HasColumnType("varchar");
+                .IsRequired();
 
             Property(a => a.Description)
+                .HasColumnType("varchar")
                 .HasMaxLength(128)
                 .IsRequired();
 

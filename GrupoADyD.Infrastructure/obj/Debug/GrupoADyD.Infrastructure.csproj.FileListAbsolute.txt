@@ -27,3 +27,6 @@ E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Infrastructure\bin\D
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Infrastructure\obj\Debug\GrupoADyD.Infrastructure.csprojResolveAssemblyReference.cache
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Infrastructure\obj\Debug\GrupoADyD.Infrastructure.dll
 E:\D\Desarrollo\Proyectos\Visual Studio\GrupoADyD\GrupoADyD.Infrastructure\obj\Debug\GrupoADyD.Infrastructure.pdb
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Infrastructure\obj\Debug\GrupoADyD.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Infrastructure\obj\Debug\GrupoADyD.Infrastructure.dll
+C:\Users\dionny.prensa\Desktop\Dev\Projects\Visual Studio\GrupoADyD\GrupoADyD.Infrastructure\obj\Debug\GrupoADyD.Infrastructure.pdb

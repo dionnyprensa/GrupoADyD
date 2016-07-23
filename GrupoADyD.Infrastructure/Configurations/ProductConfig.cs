@@ -40,9 +40,6 @@ namespace GrupoADyD.Infrastructure.Configurations
 
             Property(c => c.Sold);
 
-            Property(c => c.Stock)
-                .IsRequired();
-
             Property(p => p.RowVersion)
                 .HasColumnType("timestamp")
                 .IsConcurrencyToken();

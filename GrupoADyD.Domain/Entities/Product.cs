@@ -9,13 +9,13 @@ namespace GrupoADyD.Domain.Entities
         public string Code { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public Category Category { get; set; }
         public decimal Cost { get; set; }
         public decimal Price { get; set; }
         public int Sold { get; set; }
-        public bool InStock { get; set; }
-        public int Stock { get; set; }
+        //public bool InStock { get; set; }
+        public int CategoryId { get; set; }
 
+        public virtual Category Category { get; set; }
         public virtual ICollection<DetailSale> DetailSales { get; set; }
         public virtual ICollection<ProductRegistry> ProductRegistries { get; set; }
         public Enums.Status StatusEntity { get; set; }

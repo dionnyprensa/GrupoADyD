@@ -6,12 +6,8 @@ namespace GrupoADyD.Domain.Entities
     public class AccountsReceivable: Interfaces.IAuditable
     {
         public int Id { get; set; }
-        public int CustomerId { get; set; }
-        public int UserId { get; set; }
 
-        public virtual Customer Customer { get; set; }
-        public virtual User User { get; set; }
-        public virtual ICollection<Sale> Sales { get; set; }
+        public virtual Sale Sale { get; set; }
         public virtual ICollection<DetailAccountsReceivable> DetailsAccountsReceivable { get; set; }
 
         public decimal Amount {
