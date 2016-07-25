@@ -23,9 +23,12 @@ namespace GrupoADyD.Domain.Entities
         public virtual ICollection<AccountsReceivable> AccountsReceivable { get; set; }
         public virtual ICollection<CreditNote> CreditNotes { get; set; }
         public Enums.Status StatusEntity { get; set; }
+        
+        int CreatedById { get; set; }
+        int ModifiedById { get; set; }
 
-        public string CreatedBy { get; set; }
-        public string LastAccess { get; set; }
+        public virtual User CreatedBy { get; set; }
+        public virtual User ModifiedBy { get; set; }
         public byte[] RowVersion { get; set; }
         public DateTime Created { get; set; }
         public DateTime Modified { get; set; }

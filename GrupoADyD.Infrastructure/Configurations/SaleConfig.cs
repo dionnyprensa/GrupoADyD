@@ -34,20 +34,26 @@ namespace GrupoADyD.Infrastructure.Configurations
                 .HasPrecision(18, 2)
                 .IsOptional();
 
+            Property(s => s.TypePurchase)
+                .IsRequired();
+
+            Property(s => s.PaymentMethod)
+                .IsRequired();
+
+            Property(s => s.StatusEntity)
+                .IsRequired();
+
             HasRequired(s => s.Customer)
                 .WithMany(c => c.Purchases)
                 .HasForeignKey(s => s.CustomerId);
 
-            HasRequired(s => s.User)
+            HasRequired(s => s.CreatedBy)
                 .WithMany(u => u.Sales)
-                .HasForeignKey(s => s.UserId);
+                .HasForeignKey(s => s.CreatedById);
 
-            HasRequired(s => s.CanceledBy)
+            HasRequired(s => s.ModifiedBy)
                 .WithMany(u => u.Sales)
-                .HasForeignKey(s => s.UserId);
-
-            HasRequired(s => s.AccountsReceivable)
-                .WithRequiredPrincipal(ar => ar.Sale);
+                .HasForeignKey(s => s.ModifiedById);
 
             Property(s => s.RowVersion)
                 .HasColumnType("timestamp")

@@ -24,12 +24,12 @@ namespace GrupoADyD.Infrastructure.Configurations
             Property(d => d.ProductId)
                 .IsRequired();
 
-            //HasRequired(d => d.Sale)
-            //    .WithRequiredPrincipal(s => s.DetailedSale);
+            HasRequired(d => d.Sale)
+                .WithRequiredPrincipal(s => s.DetailedSale);
 
-            //HasRequired(d => d.Product)
-            //    .WithMany(p => p.DetailSales);
-            //.HasForeignKey(s => s.ProductId);
+            HasRequired(d => d.Product)
+                .WithMany(p => p.DetailSales)
+                .HasForeignKey(s => s.ProductId);
         }
     }
 }

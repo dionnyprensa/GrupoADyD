@@ -13,7 +13,7 @@ namespace GrupoADyD.Domain.Entities
         public Enums.Status StatusEntity { get; set; }
 
         public string CreatedBy { get; set; }
-        public string LastAccess { get; set; }
+        public string ModifiedBy { get; set; }
         public byte[] RowVersion { get; set; }
         public DateTime Created { get; set; }
         public DateTime Modified { get; set; }

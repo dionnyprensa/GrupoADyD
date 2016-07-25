@@ -11,7 +11,7 @@ namespace GrupoADyD.Application.Validators
                 .NotNull().WithMessage("Requerido.")
                 .NotEmpty().WithMessage("Requerido.")
                 .Length(4, 16).WithMessage("Debe tener entre 4 y 16 letras.");
-
+                
             RuleFor(a => a.Description)
                 .Matches(@"/[a-zA-Z ]+\w/g").WithMessage("Solo letras.")
                 .NotNull().WithMessage("Requerida.")
